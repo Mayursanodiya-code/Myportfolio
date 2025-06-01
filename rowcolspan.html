@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table , tr ,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            /* isse caption table ka bottom me aa jayega */
+            caption-side: bottom; 
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>MY FIRST TABLE</caption>
+        <tr>
+            <td colspan="2">M</td>
+            <td>A</td>
+            <!-- <td>Y</td> colom span ke liye -->
+        </tr>
+        <tr>
+            <td rowspan="2">U</td>
+            <td>R</td>
+            <td>S</td>
+        </tr>
+        <tr>
+            <!-- <td>A</td> rowspan ke liye -->
+            <td>N</td>
+            <td>O</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td colspan="2" rowspan="2 ">I</td>
+            <!-- <td>Y</td> -->
+        </tr>
+        <tr>
+            <td>A</td>
+            <!-- <td>B</td> -->
+            <!-- <td>A</td> -->
+        </tr>
+    </table>
+</body>
+</html>
